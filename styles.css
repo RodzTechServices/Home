@@ -65,22 +65,23 @@ main {
     padding: 40px 0;
 }
 
-.docs, .gallery, .mods, .pc-builds {
+.docs, .gallery, .mods, .pc-builds, .about {
     padding: 20px 0;
 }
 
-.docs .doc-item, .gallery .gallery-item, .mods .mod-item, .pc-builds .build-item {
+.docs .doc-item, .gallery .gallery-item, .mods .mod-item, .pc-builds .build-item, .about {
     background: #f9f9f9;
     padding: 20px;
     margin: 10px 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.docs .doc-item h3, .gallery .gallery-item h2, .mods .mod-item h2, .pc-builds .build-item h3 {
+.docs .doc-item h3, .gallery .gallery-item h2, .mods .mod-item h2, .pc-builds .build-item h3, .about h2 {
     margin-top: 0;
+    text-align: center; /* Center the heading */
 }
 
-.docs .doc-item a, .gallery .gallery-item a, .mods .mod-item a, .pc-builds .build-item a {
+.docs .doc-item a, .gallery .gallery-item a, .mods .mod-item a, .pc-builds .build-item a, .about a {
     display: inline-block;
     margin-top: 10px;
     color: #333;
@@ -89,7 +90,7 @@ main {
     padding: 5px 10px;
 }
 
-.docs .doc-item a:hover, .gallery .gallery-item a:hover, .mods .mod-item a:hover, .pc-builds .build-item a:hover {
+.docs .doc-item a:hover, .gallery .gallery-item a:hover, .mods .mod-item a:hover, .pc-builds .build-item a:hover, .about a:hover {
     background-color: #333;
     color: #fff;
 }
