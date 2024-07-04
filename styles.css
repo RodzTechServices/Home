@@ -65,22 +65,22 @@ main {
     padding: 40px 0;
 }
 
-.docs, .gallery, .mods {
+.docs, .gallery, .mods, .pc-builds {
     padding: 20px 0;
 }
 
-.docs .doc-item, .gallery .gallery-item, .mods .mod-item {
+.docs .doc-item, .gallery .gallery-item, .mods .mod-item, .pc-builds .build-item {
     background: #f9f9f9;
     padding: 20px;
     margin: 10px 0;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.docs .doc-item h3, .gallery .gallery-item h2, .mods .mod-item h2 {
+.docs .doc-item h3, .gallery .gallery-item h2, .mods .mod-item h2, .pc-builds .build-item h3 {
     margin-top: 0;
 }
 
-.docs .doc-item a, .gallery .gallery-item a, .mods .mod-item a {
+.docs .doc-item a, .gallery .gallery-item a, .mods .mod-item a, .pc-builds .build-item a {
     display: inline-block;
     margin-top: 10px;
     color: #333;
@@ -89,9 +89,31 @@ main {
     padding: 5px 10px;
 }
 
-.docs .doc-item a:hover, .gallery .gallery-item a:hover, .mods .mod-item a:hover {
+.docs .doc-item a:hover, .gallery .gallery-item a:hover, .mods .mod-item a:hover, .pc-builds .build-item a:hover {
     background-color: #333;
     color: #fff;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-item, .mods .mod-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.gallery-item img, .mods .mod-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
 }
 
 /* Footer styles */
