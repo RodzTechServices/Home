@@ -153,3 +153,18 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+
+/* Additional styles for images */
+.img-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.inline-img {
+    max-width: 600px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background: #fff;
+    margin: 0 auto; /* Center the image */
+}
