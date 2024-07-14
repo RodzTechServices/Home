@@ -117,6 +117,14 @@ main {
     max-width: 100%;
 }
 
+/* Adjust image sizes within mod-detail section */
+.mod-detail .inline-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto; /* Adjust margin as needed */
+}
+
 /* Footer styles */
 footer {
     background-color: #333;
@@ -152,19 +160,4 @@ footer {
 .footer-copyright {
     text-align: center;
     margin-top: 20px;
-}
-
-/* Additional styles for images */
-.img-container {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.inline-img {
-    max-width: 600px;
-    height: auto;
-    border: 1px solid #ccc;
-    padding: 5px;
-    background: #fff;
-    margin: 0 auto; /* Center the image */
 }
